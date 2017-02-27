@@ -16,7 +16,7 @@
 
 #### jupyter-notebook
 Запустить jupyter сервер:
->`PYSPARK_PYTHONDRIVER=jupyter PYSPARK_PYTHONDRIVER_OPTS=notebook /path/to/pyspark`
+>`PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS=notebook /path/to/pyspark`
 
 Также необходимо в самом ноутбуке задать пути до датасета, GeoLite2-Country.mmdb и желаемой папки для вывода
 
